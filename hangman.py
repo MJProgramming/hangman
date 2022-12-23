@@ -11,8 +11,6 @@ for letter in word:
     else:
         wordArr = wordArr
 
-print(wordArr)
-
 for i in range(len(wordArr)):
     guessedArr.append('_')
 
