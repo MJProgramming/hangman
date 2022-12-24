@@ -38,7 +38,7 @@ while mistakes < 7 and isGuessed is False:
     if ''.join(guessedArr).isalpha():
         isGuessed = True
     else:
-        isGuessed = False
+        continue
 
 if isGuessed:
     print(f'Player won! Word was: {word}')
